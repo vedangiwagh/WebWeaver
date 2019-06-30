@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+html { height: 100%; }
+
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background: #fff;
+	font-weight: 400;
+	font-size: 100%;
+	color: #333;
+	height: 100%;
+}
+
+
+.container,
+.bb-custom-wrapper,
+.bb-bookblock {
+	width: 100%;
+	height: 100%;
+}
+.slideRight {
+	left: 240px;
+}
+
+.no-js .container {
+	padding-left: 240px;
+}
+
+
+
+.bb-custom-wrapper nav {
+	top: 90vh;
+	left: 47%;
+	position: absolute;
+	z-index: 1000;
+}
+
+.bb-custom-wrapper nav span{
+	position: absolute;
+	width: 32px;
+	height: 32px;
+	top: 0;
+	left: 0;
+	background: #ffffff;
+	border-radius: 50%;
+	color: #000;
+	line-height: 30px;
+	text-align: center;
+	speak: none;
+	font-weight: bold;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.bb-custom-wrapper nav span:hover {
+	background: grey;
+}
+
+.bb-custom-wrapper nav span:last-child {
+	left: 40px;
+}
+
+@media all and (max-width: 1000px) and (min-width: 600px) {
+	.bb-custom-wrapper nav {
+		left: 46%;
+	}
+}
+ @media all and (max-width: 600px)  {
+	.bb-custom-wrapper nav {
+		left: 42%;
+	}
+}

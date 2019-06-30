@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Powers of Ten</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <meta name="theme-color" content="#003366" />
+  <link rel="shortcut icon" href="../home/img/favicon.jpeg" type="image/x-icon">
+</head>
+<body id="particles-js">
+<div class="open" style="z-index: 99"> <span class="cls"></span> <span>
+  <ul class="sub-menu" style="z-index: 99;">
+    <li> <a href="../home/index.html">Home</a> </li>
+    <li> <a href="../scale/index.html">Scale Of Universe</a> </li>
+    <li> <a href="../disc and inv/index.html">Discoveries And Inventions</a> </li>
+     <li> <a href="../wonder/index.html">Wonders Of Solar System</a> </li>
+    <li> <a href="../power/index.html">Powers Of Ten</a> </li>
+  </ul>
+  </span>
+  <span class="cls"></span>
+</div>
+<div class="container">
+  <h1 style="color: white;"><center>POWERS OF TEN</center></h1>
+  <div class="col-md-7 mrg" data-aos="fade-right" data-aos-duration="3000">
+	<iframe width="100%" height="400" src="https://www.youtube.com/embed/0fKBhvDjuy0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen ></iframe>
+  </div>
+  <div class="col-md-5 re" data-aos="zoom-in" data-aos-duration="3000">
+    <p>Powers of Ten takes us on an adventure in magnitudes. Starting at a picnic by the lakeside in Chicago, this famous film transports us to the outer edges of the universe. Every ten seconds we view the starting point from ten times farther out until our own galaxy is visible only a s a speck of light among many others. Returning to Earth with breathtaking speed, we move inward- into the hand of the sleeping picnicker- with ten times more magnification every ten seconds. Our journey ends inside a proton of a carbon atom within a DNA molecule in a white blood cell.</p>
+  </div>
+</div>
+<div class="footer">
+    <center><p>Made By Geet And Vedangi</p></center>
+</div>
+<script src='https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
+<script src="js/res.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>  
+<script>
+  AOS.init();
+</script>
+<script>
+$(document).ready(function() {
+    $(document).delegate('.open', 'click', function(event){
+      $(this).addClass('oppenned');
+      event.stopPropagation();
+    })
+    $(document).delegate('body', 'click', function(event) {
+      $('.open').removeClass('oppenned');
+    })
+    $(document).delegate('.cls', 'click', function(event){
+      $('.open').removeClass('oppenned');
+      event.stopPropagation();
+    });
+  });
+</script>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</body>
+</html>
